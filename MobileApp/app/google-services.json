@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "92735900868",
+    "project_id": "geziuygulamasi-33f8d",
+    "storage_bucket": "geziuygulamasi-33f8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92735900868:android:9ed603e834239514250d91",
+        "android_client_info": {
+          "package_name": "com.example.a2019707054_elif_yalvac_final_odevi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92735900868-51knvbrds29a3821odthi9l80u5okg9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCywZJxMuwocIuAfPemyxULsz9J5jAtxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92735900868-51knvbrds29a3821odthi9l80u5okg9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

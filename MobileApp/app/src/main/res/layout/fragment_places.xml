@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".ui.places.PlacesFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Hadi Durma Hemen Şimdi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Gezdiğin Yerleri Kaydet"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="352dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:hint="Yerin Adı" />
+
+    <EditText
+        android:id="@+id/editAciklama"
+        android:layout_width="355dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="Açıklama" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/btnSec"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Resim Seç"
+        app:backgroundTint="#E91E63" />
+
+    <Button
+        android:id="@+id/btnEkle"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="EKLE"
+        app:backgroundTint="#1FB625" />
+
+    <Button
+        android:id="@+id/btnListele"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="LİSTELE"
+        app:backgroundTint="#03A9F4" />
+</LinearLayout>
